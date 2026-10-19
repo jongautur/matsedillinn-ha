@@ -32,6 +32,8 @@ Entity ids follow Home Assistant's language when the integration is added (in Ic
 
 The sensors' picture is the meal's image.
 
+The integration ships its own icon (`brand/`), which Home Assistant 2026.3 and later shows.
+
 ## Dashboard
 
 ```yaml
