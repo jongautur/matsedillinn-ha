@@ -1,0 +1,69 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Matseðillinn",
+        "description": "Límdu inn eina af slóðunum úr Stillingar → Ytri tengingar, eða bara lykilinn.",
+        "data": {
+          "url": "Netþjónn",
+          "token": "Slóð eða lykill",
+          "language": "Tungumál"
+        },
+        "data_description": {
+          "token": "Lykillinn er það sem kemur á eftir ?token= í slóðinni."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Nýr lykill",
+        "description": "Lyklinum var hafnað, kannski af því að nýr var búinn til. Límdu inn nýja slóð eða lykil.",
+        "data": {
+          "token": "Slóð eða lykill"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Lyklinum var hafnað.",
+      "cannot_connect": "Náði ekki sambandi við netþjóninn."
+    },
+    "abort": {
+      "already_configured": "Þetta heimili er þegar tengt.",
+      "reauth_successful": "Lykillinn var uppfærður."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "language": "Tungumál"
+        }
+      }
+    }
+  },
+  "selector": {
+    "language": {
+      "options": {
+        "is": "Íslenska",
+        "en": "English",
+        "pl": "Polski"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "today": {
+        "name": "Í dag"
+      },
+      "tomorrow": {
+        "name": "Á morgun"
+      },
+      "week": {
+        "name": "Vikan"
+      }
+    },
+    "calendar": {
+      "plan": {
+        "name": "Matseðill"
+      }
+    }
+  }
+}

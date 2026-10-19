@@ -1,0 +1,69 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Matseðillinn",
+        "description": "Wklej jeden z linków z Ustawienia → Połączenia zewnętrzne albo sam klucz.",
+        "data": {
+          "url": "Serwer",
+          "token": "Link lub klucz",
+          "language": "Język"
+        },
+        "data_description": {
+          "token": "Klucz to część po ?token= w linku."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Nowy klucz",
+        "description": "Klucz został odrzucony, być może dlatego, że utworzono nowy. Wklej nowy link lub klucz.",
+        "data": {
+          "token": "Link lub klucz"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Klucz został odrzucony.",
+      "cannot_connect": "Nie udało się połączyć z serwerem."
+    },
+    "abort": {
+      "already_configured": "Ten dom jest już skonfigurowany.",
+      "reauth_successful": "Klucz został zaktualizowany."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "language": "Język"
+        }
+      }
+    }
+  },
+  "selector": {
+    "language": {
+      "options": {
+        "is": "Íslenska",
+        "en": "English",
+        "pl": "Polski"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "today": {
+        "name": "Dziś"
+      },
+      "tomorrow": {
+        "name": "Jutro"
+      },
+      "week": {
+        "name": "Ten tydzień"
+      }
+    },
+    "calendar": {
+      "plan": {
+        "name": "Jadłospis"
+      }
+    }
+  }
+}

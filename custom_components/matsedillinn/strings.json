@@ -1,0 +1,69 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Matseðillinn",
+        "description": "Paste one of the links from Settings → External connections, or just the key.",
+        "data": {
+          "url": "Server",
+          "token": "Link or key",
+          "language": "Language"
+        },
+        "data_description": {
+          "token": "The key is the part after ?token= in the link."
+        }
+      },
+      "reauth_confirm": {
+        "title": "New key",
+        "description": "The key was rejected, maybe because a new one was created. Paste a new link or key.",
+        "data": {
+          "token": "Link or key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The key was rejected.",
+      "cannot_connect": "Could not connect to the server."
+    },
+    "abort": {
+      "already_configured": "This household is already set up.",
+      "reauth_successful": "The key was updated."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "language": "Language"
+        }
+      }
+    }
+  },
+  "selector": {
+    "language": {
+      "options": {
+        "is": "Íslenska",
+        "en": "English",
+        "pl": "Polski"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "today": {
+        "name": "Today"
+      },
+      "tomorrow": {
+        "name": "Tomorrow"
+      },
+      "week": {
+        "name": "This week"
+      }
+    },
+    "calendar": {
+      "plan": {
+        "name": "Meal plan"
+      }
+    }
+  }
+}

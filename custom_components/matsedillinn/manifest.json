@@ -1,0 +1,12 @@
+{
+  "domain": "matsedillinn",
+  "name": "Matseðillinn",
+  "codeowners": ["@jongautur"],
+  "config_flow": true,
+  "documentation": "https://github.com/jongautur/matsedillinn-ha",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/jongautur/matsedillinn-ha/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
